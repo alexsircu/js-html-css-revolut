@@ -30,9 +30,14 @@ header {
   align-items: center;
 }
 
+/* parte sinistra dell'header */
 #header-left {
   float: left;
   width: 45%;
+}
+
+#header-left li:first-child {
+  padding-right: 30px;
 }
 
 #header-left li:nth-child(2) a {
@@ -43,6 +48,11 @@ header {
   color: rgb(25 28 31);
 }
 
+#logo-revolut {
+  vertical-align: middle;
+}
+
+/* parte centrale dell'header */
 #header-middle {
   float: left;
   width: 30%;
@@ -53,25 +63,94 @@ header {
   color: rgb(25 28 31);
 }
 
+/* sezione abbonamenti */
+.list-column {
+  list-style: none;
+}
+
+#subscription-container {
+  position: relative;
+}
+
+.dropdown {
+  display: none;
+  width: auto;
+  text-align: justify;
+  padding: 5px 0;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px
+}
+
+.subscription-dropdown {
+  /* display: block; */
+  position: absolute;
+  left: 0;
+}
+
+.subscription-dropdown li {
+  width: 150px;
+}
+
+/* sezione chi siamo */
+#who-we-are-container {
+  position: relative;
+}
+
+.who-we-are-dropdown {
+  /* display: block; */
+  position: absolute;
+  left: 0;
+}
+
+.who-we-are-dropdown li {
+  width: 180px;
+}
+
+/* sezione aiuto */
+#help-container {
+  position: relative;
+}
+
+.help-dropdown {
+  /* display: block; */
+  position: absolute;
+  left: 0;
+}
+
+.help-dropdown li {
+  width: 150px;
+
+}
+
+/* parte destra dell'header */
 #header-right {
   float: left;
   width: 25%;
 }
 
 #header-right li:first-child button {
-  padding: 16px 25px;
+  padding: 12px 25px;
   border-radius: 10px;
   border: 0;
   color: rgb(25 28 31);
   font-size: 16px;
 }
+#header-right li:first-child button:hover {
+  cursor: pointer;
+  background-color: #DADBDB;
+}
 #header-right li:last-child button {
-  padding: 16px 25px;
+  padding: 12px 25px;
   border-radius: 10px;
   border: 0;
   background-color: rgb(25 28 31);
   color: white;
   font-size: 16px;
+}
+#header-right li:last-child button:hover {
+  cursor: pointer;
+  background-color: #3E4043;
 }
 
 .list-inline {
@@ -80,13 +159,9 @@ header {
 }
 .list-inline li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 10px;
 }
 .list-inline li a {
   text-decoration: none;
   color: #cfd1d1;
-}
-
-#logo-revolut {
-  vertical-align: middle;
 }
