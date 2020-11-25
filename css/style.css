@@ -72,6 +72,10 @@ header {
   position: relative;
 }
 
+/* .active {
+  display: block;
+} */
+
 .dropdown {
   display: none;
   width: auto;
