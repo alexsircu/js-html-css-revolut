@@ -3,16 +3,22 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js" charset="utf-8"></script>
     <title>Revolut header</title>
   </head>
   <body>
-    
-    <header>
-      <div id="container-page">
+
+    <!-- header -->
+    <header class="clearfix">
+      <div class="container-page" id="container-header">
         <ul class="list-inline" id="header-left">
           <li>
-            <a href="#"><img src="" alt=""></a>
+            <a href="#"><img src="img/svgexport-1.svg" alt="Logo Revolut" id="logo-revolut"></a>
           </li>
           <li>
             <a href="#">Personale</a>
@@ -36,19 +42,23 @@
           </li>
         </ul>
         <ul class="list-inline" id="header-right">
-          <li><a href="#">Accedi</a></li>
-          <li><a href="#">Scarica l'app</a></li>
+          <li><button type="button" name="button">Accedi</button></li>
+          <li><button type="button" name="button">Scarica l'app</button></li>
         </ul>
       </div>
 
     </header>
+    <!-- fine header -->
+    <!-- jumbotron -->
     <div id="jumbotron">
 
     </div>
+    <!-- fine jumbotron -->
 
 
 
-    <script src="js/script.js" charset="utf-8"></script>
+
+
 
   </body>
 </html>
