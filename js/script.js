@@ -1,33 +1,33 @@
 $(document).ready(
   function () {
-    $("#subscription-container > a").mouseenter(
+    $("#subscription-container").mouseenter(
       function () {
         $(".subscription-dropdown").toggle();
       }
     );
-    $("#subscription-container > a").mouseleave(
+    $("#subscription-container").mouseleave(
       function () {
         $(".subscription-dropdown").toggle();
       }
     );
 
-    $("#who-we-are-container > a").mouseenter(
+    $("#who-we-are-container").mouseenter(
       function () {
         $(".who-we-are-dropdown").toggle();
       }
     );
-    $("#who-we-are-container > a").mouseleave(
+    $("#who-we-are-container").mouseleave(
       function () {
         $(".who-we-are-dropdown").toggle();
       }
     );
 
-    $("#help-container > a").mouseenter(
+    $("#help-container").mouseenter(
       function () {
         $(".help-dropdown").toggle();
       }
     );
-    $("#help-container > a").mouseleave(
+    $("#help-container").mouseleave(
       function () {
         $(".help-dropdown").toggle();
       }
